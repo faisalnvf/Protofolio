@@ -8,7 +8,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
-<body>
+<body id="top">
   <header data-aos="fade-down">
     <div class="header-content">
       <img src="photo_2025-04-18_18-18-13.jpg" alt="My Photo" class="profile-pic">
@@ -21,60 +21,89 @@
 
   <section class="about" data-aos="fade-up">
     <h2>About Me</h2>
-    <p>I am a passionate developer from Alexandria,and coach in many teams, always improving and learning new skills.
+    <p>I'm Faisal — a passionate web developer & youth coach from Alexandria,I'm a certified coach at Cisco Academy and many teams.I constantly improving and learning new skills through volunteering and mentoring.
     </p>
     <p><b>Age:</b> 16 (senior 1)
     </p>
     <p><b>School:</b> Middle east senior language school
     </p>
   </section>
-</section>
-
-<div id="modal" class="modal" onclick="closeModal()">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="modal-img" />
-  <div id="caption"></div>
-</div>
-
-  <section class="Certificates & Awards" data-aos="fade-up">
-    <center><h2>Certificates</h2></center>
-    <div class="card-container">
-      <div class="card-scroll">
-      <div class="card" data-aos="zoom-in">
-        <img src="cisco.jpg" alt="Certificate 1" />
-        <p>TOT Certificate - Cisco Academy</p>
+  <section class="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill" data-aos="zoom-in">
+        <div class="skill-name">HTML5 &amp; CSS3</div>
+        <div class="skill-level"><span style="width: 90%;"></span></div>
       </div>
+      <div class="skill" data-aos="zoom-in" data-aos-delay="100">
+        <div class="skill-name">JavaScript (ES6+)</div>
+        <div class="skill-level"><span style="width: 85%;"></span></div>
+      </div>
+      <div class="skill" data-aos="zoom-in" data-aos-delay="200">
+        <div class="skill-name">AOS Animations &amp; UX</div>
+        <div class="skill-level"><span style="width: 60%;"></span></div>
+      </div>
+      <div class="skill" data-aos="zoom-in" data-aos-delay="300">
+        <div class="skill-name">Git &amp; GitHub</div>
+        <div class="skill-level"><span style="width: 75%;"></span></div>
+      </div>
+      <div class="skill" data-aos="zoom-in" data-aos-delay="400">
+        <div class="skill-name">Coaching &amp; Training</div>
+        <div class="skill-level"><span style="width: 95%;"></span></div>
+      </div>
+      <div class="skill" data-aos="zoom-in" data-aos-delay="500">
+        <div class="skill-name">Public Speaking &amp; Leadership</div>
+        <div class="skill-level"><span style="width: 90%;"></span></div>
+      </div>
+      <div class="skill" data-aos="zoom-in" data-aos-delay="600">
+        <div class="skill-name">Machine Learning Basics</div>
+        <div class="skill-level"><span style="width: 70%;"></span></div>
+      </div>
+      <div class="skill" data-aos="zoom-in" data-aos-delay="700">
+        <div class="skill-name">UI/UX Fundamentals</div>
+        <div class="skill-level"><span style="width: 65%;"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates-awards" data-aos="fade-up">
+    <h2>Certificates & Awards</h2>
+    <div class="card-container">
+      <div class="card" data-aos="zoom-in">
+        <img src="cisco.jpg" alt="TOT Certificate - Cisco Academy" />
+        <p>TOT Certificate — Cisco Academy</p>
       </div>
       <div class="card" data-aos="zoom-in" data-aos-delay="100">
-        <img src="mobde3.jpg" alt="Certificate 2" />
-        <p>Creative Student Award (Top 10 websites in EGYPT)</p>
+        <img src="mobde3.jpg" alt="Creative Student Award" />
+        <p>Creative Student Award — Top 10 Websites in Egypt</p>
       </div>
-    <div class="card" data-aos="zoom-in" data-aos-delay="100">
-      <img src="deci.jpg" alt="Certificate 3" />
-      <p>Level one DECI</p>
-    </div>
-    <div class="card" data-aos="zoom-in" data-aos-delay="100">
-      <img src="unicef.jpg" alt="Certificate 4" />
-      <p>life skills from UNICEF</p>
-    </div>
-    <div class="card" data-aos="zoom-in" data-aos-delay="100">
-      <img src="486658476_122122047704716914_3029565574910459417_n.jpg" alt="Certificate 4" />
-      <p>SDG Course</p>
-    </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="deci.jpg" alt="Level One DECI" />
+        <p>Level One — DECI</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="300">
+        <img src="unicef.jpg" alt="Life Skills Certificate — UNICEF" />
+        <p>Life Skills Certificate — UNICEF</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="400">
+        <img src="sdg.jpg" alt="SDG Course" />
+        <p>SDG Course</p>
+      </div>
     </div>
   </section>
-  
+
   <section class="projects" data-aos="fade-up">
-    <center><h2>Agri-Pulse (My project)</h2></center>
-    <div class="card-container">
+    <h2>Agri-Pulse (My Project)</h2>
       <div class="card" data-aos="zoom-in">
-        <img src="{574B8DF0-2A2A-4089-A1A6-0A3A564B19CE}.png.jpg" alt="project" />
-        <p>anas41011.github.io/AGRI-PULS/index.html</p>
-        <a href="https://anas41011.github.io/anas./index.html" class="button-animated">See More</a>
+        <img src="pic.jpg" alt="Agri-Pulse project" />
+        <a href="https://anas41011.github.io/AGRI-PULSE/index.html" class="button-animated" target="_blank">See More</a>
+        <b><p>مشروع نبض الزراعة هو مبادرتي الشخصية لتمكين الزراعة الذكية في مصر من خلال علوم البيانات، وإنترنت الأشياء، والذكاء الاصطناعي. هدفنا تمكين الفلاحين من استخدام التكنولوجيا بشكل بسيط لتحسين الإنتاج وتوفير المياه.</p></b>
+      </div>
     </div>
   </section>
+
   <section class="volunteering" data-aos="fade-up">
-    <center><h2>Teams I Volunteer With</h2></center>
+    <h2>Teams I Volunteer With</h2>
     <div class="volunteering-container">
         <div class="volunteering-card" data-aos="zoom-in">
             <div class="team-info">
@@ -135,24 +164,55 @@
                       Affiliated with the Ministry of Youth and Sports and UNICEF, as an outcome of the "We Share" project.</p>
                     <a href="https://www.facebook.com/incatech1" target="_blank" class="team-link">Visit Team's Page</a>
                 </div>
-              </div>
-        </div>
-
     </div>
-</section>
+  </section>
 
+  <button id="back-to-top" title="Back to Top"><i class="fas fa-chevron-up"></i></button>
 
   <footer data-aos="fade-up">
     <p>&copy; 2025 Faisal</p>
-    <a href="https://wa.me/201103631943" target="_blank">
-      <i class="fab fa-whatsapp fa-2x whatsapp-icon"></i><a href="https://facebook.com/Faisal.Amin.1882008" target="_blank"><i class="fab fa-facebook fa-2x facebook-icon"></i></a><a href="https://t.me/Faisal_nvf" target="_blank"><i class="fab fa-telegram fa-2x telegram-icon"></i></a><a href="https://instagram.com/faisal_amin8" target="_blank"><i class="fab fa-instagram fa-2x instagram-icon"></i></a><a href="mailto:fisolgamer@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x email-icon" ></i></a>
-    <a href="https://github.com/faisalnvf" target="_blank"><i class="fab fa-github fa-2x github-icon"></i></a>        
-    
+    <div class="social-icons">
+      <a href="https://wa.me/201103631943" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
+      <a href="https://facebook.com/Faisal.Amin.1882008" target="_blank"><i class="fab fa-facebook facebook-icon"></i></a>
+      <a href="https://t.me/Faisal_nvf" target="_blank"><i class="fab fa-telegram telegram-icon"></i></a>
+      <a href="https://instagram.com/faisal_amin8" target="_blank"><i class="fab fa-instagram instagram-icon"></i></a>
+      <a href="mailto:fisolgamer@gmail.com"><i class="fas fa-envelope email-icon"></i></a>
+      <a href="https://github.com/faisalnvf" target="_blank"><i class="fab fa-github github-icon"></i></a>
+    </div>
   </footer>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img" />
+    <div id="caption"></div>
+  </div>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({ duration: 1000 });
-</script>
+
+    // Back to Top Button
+    const backToTop = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      backToTop.style.display = window.pageYOffset > 300 ? 'block' : 'none';
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+
+    // Modal Image Viewer
+    const modal = document.getElementById('modal');
+    const modalImg = document.getElementById('modal-img');
+    const caption = document.getElementById('caption');
+    document.querySelectorAll('img').forEach(img => {
+      img.addEventListener('click', () => {
+        modal.style.display = 'block';
+        modalImg.src = img.src;
+        caption.textContent = img.alt;
+      });
+    });
+    document.querySelector('.close').addEventListener('click', () => modal.style.display = 'none');
+  </script>
 </body>
 </html>
